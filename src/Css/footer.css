@@ -1,0 +1,40 @@
+.matches-container {
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .matches {
+    display: flex;
+    overflow-x: hidden;
+  }
+  
+  .match {
+    flex: 0 0 auto;
+    width: 400px;
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .scroll-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  /* .left {
+    border-radius: 50% 0 0 50%;
+  }
+  
+  .right {
+    border-radius: 0 50% 50% 0;
+  } */
+  
